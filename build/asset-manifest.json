@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/switch-game-database/static/css/main.073c9b0a.css",
+    "main.js": "/switch-game-database/static/js/main.f5428ba9.js",
+    "static/js/787.5ea0c4be.chunk.js": "/switch-game-database/static/js/787.5ea0c4be.chunk.js",
+    "static/media/logo.svg": "/switch-game-database/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/switch-game-database/index.html",
+    "main.073c9b0a.css.map": "/switch-game-database/static/css/main.073c9b0a.css.map",
+    "main.f5428ba9.js.map": "/switch-game-database/static/js/main.f5428ba9.js.map",
+    "787.5ea0c4be.chunk.js.map": "/switch-game-database/static/js/787.5ea0c4be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.f5428ba9.js"
+  ]
+}
