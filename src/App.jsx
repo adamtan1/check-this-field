@@ -24,8 +24,8 @@ function App () {
 function Body () {
   return (
     <Routes>
-      <Route path="/" element={<Homepage />} />
-      <Route path="field" element={<Fieldpage/>} />
+      <Route path="/check-this-field" element={<Homepage />} />
+      <Route path="/check-this-field/field" element={<Fieldpage/>} />
     </Routes>
   );
 }

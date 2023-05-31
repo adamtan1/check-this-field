@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Home () {
   return (
     <div>
-      <Link to="/">home</Link>
+      <Link to="/check-this-field">home</Link>
       <p />
     </div>
   )
