@@ -10,24 +10,22 @@ import Fieldpage from './pages/fieldpage'
 
 function App () {
   return (
-    // <StoreProvider>
-      <Router>
-        <div>
-          <Nav />
-          <Body />
-        </div>
-      </Router>
-    // </StoreProvider>
-  );
+    <Router>
+      <div>
+        <Nav />
+        <Body />
+      </div>
+    </Router>
+  )
 }
 
 function Body () {
   return (
     <Routes>
       <Route path="/check-this-field" element={<Homepage />} />
-      <Route path="/check-this-field/field" element={<Fieldpage/>} />
+      <Route path="/check-this-field/field" element={<Fieldpage />} />
     </Routes>
-  );
+  )
 }
 
 export default App

@@ -1,28 +1,30 @@
-// import React, { useState } from 'react'
-import React from 'react'
-// import { post } from '../utils/api'
-// import { StoreContext } from '../utils/store'
-import FieldPreview from './field_preview'
+import React, { useState } from 'react'
+import Grid from '@mui/material/Grid'
+import TextField from '@mui/material/TextField'
 
-import fieldsList from '../database.json'
+import Results from './results'
 
 export default function Home () {
-  const previews = fieldsList.fields.map(field => {
-    return(
-      <FieldPreview
-        fid={field.fid}
-        name={field.name}
-        address={field.address}
-        field_size={field.field_size}
-        council={field.council}
-        img={field.img}
-      />
-    )
-  })
+  const [inputText, setInputText] = useState("")
+  let inputHandler = (e) => {
+    var lowerCase = e.target.value.toLowerCase()
+    setInputText(lowerCase)
+  }
 
   return (
     <div>
-      {previews}
+      <TextField
+        id="outlined-basic"
+        variant="outlined"
+        label="Search"
+        onChange={inputHandler}
+      />
+      <p/>
+      <Grid
+        container
+        direction="row">
+        <Results input={inputText} />
+      </Grid>
     </div>
   )
 }

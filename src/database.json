@@ -15,6 +15,22 @@
       "address": "Constitution Rd W, Meadowbank NSW 2114, Australia",
       "council": "Ryde",
       "img": "https://d36m266ykvepgv.cloudfront.net/uploads/media/3UKsq3OBOx/s-837-554/meadowbank-3.png"
+    },
+    {
+      "fid": 2,
+      "name": "Boronia Park",
+      "field_size": "L",
+      "address": "Park Rd &, Ryde Rd, Hunters Hill NSW 2110",
+      "council": "Lane Cove",
+      "img": "https://maps.google.com/maps/api/staticmap?key=AIzaSyCZuRrNM-RztYZTFd7l2X_3LAUOPAS2lXE&center=-33.8261033,151.1395914&zoom=17&size=470x200&maptype=satellite"
+    },
+    {
+      "fid": 3,
+      "name": "Ryde Park",
+      "field_size": "L",
+      "address": "Blaxland Rd, Ryde NSW 2112",
+      "council": "Ryde",
+      "img": "https://maps.google.com/maps/api/staticmap?key=AIzaSyCZuRrNM-RztYZTFd7l2X_3LAUOPAS2lXE&center=-33.8132667,151.1085316&zoom=17&size=470x200&maptype=satellite"
     }
   ]
 }

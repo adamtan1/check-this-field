@@ -1,8 +1,4 @@
-// import React, { useState } from 'react'
 import React from 'react'
-// import { useHistory } from 'react-router-dom'
-// import { post } from '../utils/api'
-// import { StoreContext } from '../utils/store'
 import fieldsList from '../database.json'
 
 export default function Field () {

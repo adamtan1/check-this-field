@@ -1,10 +1,10 @@
-import React from 'react';
+import React from 'react'
 import {
   Route,
   Routes
-} from 'react-router-dom';
+} from 'react-router-dom'
 
-import Field from '../components/field';
+import Field from '../components/field'
 
 export default function Fieldpage () {
   return (
